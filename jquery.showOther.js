@@ -20,7 +20,7 @@
             }
         });
         
-        $(document).ready(function () {
+        $(document).ready(function() {
             if ($this.val() === $this.data(settings.optionAttr)) {
                 $target.addClass(settings.toggleClass);
             }
